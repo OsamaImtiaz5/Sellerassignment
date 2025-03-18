@@ -56,7 +56,7 @@ const InputField: React.FC<InputFieldProps> = ({
 
         {editableIcon && !isUrlField && !isEditing && (
           <button
-            className="ml-2 flex items-center bg-gray-200 text-black px-3 py-1 rounded-full text-sm"
+            className="ml-2 flex items-center bg-gray-100 text-black px-3 py-1 rounded-full text-sm"
             onClick={() => setIsEditing(true)}
           >
             <MdAccountCircle className="mr-1" /> Edit
